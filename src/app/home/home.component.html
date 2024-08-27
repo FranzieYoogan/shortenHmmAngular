@@ -1,0 +1,27 @@
+
+<section class="containerAll">
+
+    <form (submit)="shorten($event)">
+
+        <div>
+            <h1 class="titleStyle">URL <span class="spanStyle">SHORTENER</span></h1>
+        </div>
+       
+
+        <div style="display: flex; justify-content: center; gap: 0.3em;">
+
+            <input type="text" placeholder="Enter URL" id="inputValue" class="inputStyle" required> <button type="submit" class="buttonStyle">Shorten</button>
+
+        </div>
+
+        <div class="containerUrl" id="containerUrl">
+
+            <a href="{{url}}" class="anchorStyle anchorStyle2">www.ShortUrl.com</a>
+
+        </div>
+
+     
+
+    </form>
+
+</section>

@@ -1,0 +1,89 @@
+.spanStyle {
+
+    color: orange;
+
+}
+
+.titleStyle {
+
+    color: white;
+    font-size: 30px;
+}
+
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+
+}
+
+.buttonStyle {
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.buttonStyle:hover {
+
+    border: 1px solid white;
+    
+
+}
+
+.buttonStyle2 {
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 1em;
+    color: white;
+    background-color: orange;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.buttonStyle2:hover {
+
+    border: 1px solid white;
+    
+
+}
+
+
+.inputStyle {
+
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+.containerUrl {
+
+    margin-top: 1.5em;
+    visibility: hidden;
+    text-align: center;
+}
+
+.anchorStyle2 {
+
+    margin-top: 1em;
+    border: 1px solid orange;
+    padding: 8px;
+    border-radius: 5px;
+    
+    width: 130px;
+}
+
+.anchorStyle {
+
+    text-decoration: none;
+    color: white;
+}
+
+
